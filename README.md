@@ -50,6 +50,8 @@ What happens?
 The preprocessed output is commonly saved with the .i extension.
 
 Important: The preprocessor does not execute your program. It prepares the source code for compilation.
+
+
 Stage 2: Compilation
 Now the compiler takes the preprocessed C code.
 
@@ -66,6 +68,10 @@ int result = 10 + 20;
 The compiler can translate this into processor-specific assembly instructions.
 
 The output is commonly a .s file.
+
+
+
+
 Stage 3: Assembly
 The assembler converts assembly instructions into machine-code instructions.
 
@@ -82,6 +88,10 @@ main.o
 An object file contains machine code and additional information, such as symbol and relocation information.
 
 It is not necessarily a complete executable yet.
+
+
+
+
 Stage 4: Linking
 Now imagine your program uses:
 printf("Hello World");
